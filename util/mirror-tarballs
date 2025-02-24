@@ -7,6 +7,8 @@ info_txt=`perl -e 'print "\033[33m[INFO]\033[0m"'`
 
 env
 
+git config --global --add safe.directory $PWD
+
 echo -n "openresty "
 . ./util/ver
 echo
